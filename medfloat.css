@@ -1,0 +1,53 @@
+#style
+.left, .right {
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+#container {
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+}
+
+#container {
+  width: 100%;
+  height: auto;
+  align-content: center;
+}
+body {
+  background-color: lightgreen;
+}
+
+h2 {
+  color: white;
+}
+p {
+  color: black;
+  text-align: center;
+}
+#demographics, #medications, #history, #vitals  {
+  background-color: lightsteelblue;
+  text-align: center;
+  padding-bottom: 12px;
+  color: black;
+  }
+
+ul {
+  list-style-type: none;
+
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) {
+  
+      width: 500px;
+      border: 5px solid black;
+      padding: 15px;
+      margin: 15px;
+} 
+    submit {
+      justify: center;
+    }
+
+
+
